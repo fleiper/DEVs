@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+ h1 {
+    font-size: 2em;
+    text-align: center;
+ }
+ h3{
+    text-align: start;
+ }
+form {
+    background-color: rgb(222, 219, 219);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+ 
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ 
+p {
+    text-align: center;
+}
+ 
+input{
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+}
+select{
+    border-radius: 15px;
+    background-color: rgb(228, 228, 228);
+}
+textarea{
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+}
