@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body>
+    <section class="CampoLogin">
+        <form action="/pagina-processa-dados-form" method="post">
+ 
+            <h1>CADASTRO DE DEVS</h1>
+            <p><b>Faça já sua inscrição</b></p>
+ 
+            <label for="campoNome"> <b>Nome:</b></label>
+            <input id="campoNome" type="text" class="nome" required>
+ 
+            <label for="campoSobrenome"> <b>Sobrenome:</b></label>
+            <input id="campoSobrenome" type="text" class="sobrenome" required>
+ 
+            <label for="campoCpf"> <b>CPF:</b></label>
+            <input id="campoCpf" type="text" class="cpf" required>
+ 
+            <label for="telefone"> Telefone </label>
+            <input id="telefone" name="telefone" type="tel" placeholder="(XX)XXXXX-XXXX" required>
+ 
+            <label for="email"> <b>Email</b></label>
+            <input id="email" type="email" placeholder="email@gmail.com" required>
+ 
+            <p><b>Em qual lado de aplicação você desenvolve?</b></p>
+ 
+            <label for="front-end"><i>Front-End</i> </label>
+            <input id="front-end" type="radio">
+ 
+            <label for="back-end"><i>Back-End</i> </label>
+            <input id="back-end" type="radio">
+ 
+            <label for="full-stack"><i>Full-Stack</i> </label>
+            <input id="full-stack" type="radio">
+ 
+            <h3>Nivel de Experiência: </h3>
+ 
+            <select>
+                <option value="">Selecione</option>
+                <option>Júnior</option>
+                <option>Pleno</option>
+                <option>Sênior</option>
+            </select>
+ 
+            <p><b>Selecione quais tecnologias você trabalha: </b></p>
+ 
+            <label for="html"><i>HTML</i> </label>
+            <input id="html" type="checkbox">
+ 
+            <label for="css"> <i>CSS</i> </label>
+            <input id="css" type="checkbox">
+ 
+            <label for="javascript"> <i>JavaScript</i></label>
+            <input id="javascript" type="checkbox">
+ 
+            <label for="bancodedados"> <i>Banco de Dados</i></label>
+            <input id="bancodedados" type="checkbox">
+ 
+            <label for="php"> <i>PHP</i></label>
+            <input id="php" type="checkbox">
+ 
+            <label for="python"> <i>PHYTON</i></label>
+            <input id="python" type="checkbox">
+ 
+            <p><b><i>CONTE UM POUCO DA SUA EXPERIÊNCIA</i></b></p>
+ 
+            <label for="mensagem"></label>
+            <textarea id="mensagem" cols="50" rows="10"></textarea>
+ 
+            <button type="submit"> <i><b>ENVIAR</b></i></button>
+ 
+        </form>
+    </section>
+</body>
+ </html>
